@@ -1,0 +1,10 @@
+*/out
+out
+
+.git
+.vscode
+.idea
+*/.idea
+
+.DS_Store
+*/.DS_Store
