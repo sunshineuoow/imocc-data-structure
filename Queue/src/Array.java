@@ -94,7 +94,7 @@ public class Array<E> {
     for (int i = index + 1; i < size; i++)
       data[i - 1] = data[i];
 
-    data[size--] = null;
+    data[--size] = null;
     if (size == data.length / 2)
       resize(data.length / 2);
     return res;
